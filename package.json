@@ -1,0 +1,27 @@
+{
+  "name": "instaway",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "lint": "expo lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@supabase/supabase-js": "^2.57.0",
+    "expo": "~57.0.17",
+    "expo-constants": "~18.0.10",
+    "expo-router": "~57.0.22",
+    "react": "19.2.3",
+    "react-native": "0.86.3",
+    "react-native-url-polyfill": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "~19.2.0",
+    "eslint": "^9.0.0",
+    "typescript": "~5.9.0"
+  }
+}
