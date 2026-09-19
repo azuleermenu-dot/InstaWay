@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "InstaWay",
+    "slug": "instaway",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "instaway",
+    "plugins": ["expo-router"],
+    "android": {
+      "package": "com.instaway.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#0B1220"
+      }
+    }
+  }
+}
